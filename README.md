@@ -22,9 +22,9 @@
 
 
 ### Сущности и Атрибуты:
-*   **Employee:** `employee_id`, `name`, `email`, `department`, ...
-*   **Task:** `task_id`, `title`, `description`, `due_date`, `status_id`, `assigned_to_employee_id`, ...
-*   **Project:** `project_id`, `name`, `description`, `manager_employee_id`, ...
+*   **Employee:** `employee_id`, `firtsname`, `lastsname`, `middle_name`, `date_of_birth`, `email`, `work_phone`, `department`, `position`, `status`
+*   **Tasks:** `task_id`, `title`, `description`, `due_date`, `task_status`, `priority_id`, `created_by`, `assigned_to`, `revue_by`, `project_id`, `comments`
+*   **Projects:** `project_id`, `title`, `description`, `start_date`, `finish_date`, `manager_of_project`, `prepared_by`, `project_status`, `title`
 *   (и так далее для всех сущностей)
 
 ### Связи:
